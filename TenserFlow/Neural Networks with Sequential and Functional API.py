@@ -17,9 +17,9 @@ model = keras.Sequential(
         layers.Dense(10),
     ]
 )
-
+# sequential
 model = keras.Sequential()
-model.add(keras.Input(shape=(784,)))
+model.add(keras.Input(shape=(784,))) # adding  input layer
 model.add(layers.Dense(256,activation='relu'))
 # model.add(layers.Dense(256,activation= 'relu'))
 model.add(layers.Dense(256,activation= 'relu',name='my_layer'))
