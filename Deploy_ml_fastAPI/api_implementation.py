@@ -13,7 +13,6 @@ input_data_for_model = {
     'BMI': 25.8,
     'DiabetesPedigreeFunction': 0.587,
     'Age': 51
-
 }
 
 input_json = json.dumps(input_data_for_model)
