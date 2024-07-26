@@ -50,7 +50,7 @@ x = layers.Dense(256,activation='relu',name='second_layer')(x)
 outputs = layers.Dense(10,activation='softmax')(x)
 model = keras.Model(inputs=inputs,outputs=outputs)
 
-print(model.summary())
+# print(model.summary())
 # Compile the model
 model.compile(
     loss=keras.losses.SparseCategoricalCrossentropy(from_logits=False),
